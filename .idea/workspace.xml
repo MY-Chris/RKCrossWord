@@ -369,7 +369,8 @@
       <workItem from="1684284081502" duration="63000" />
       <workItem from="1684293244193" duration="2765000" />
       <workItem from="1684298420607" duration="1024000" />
-      <workItem from="1684359949461" duration="317000" />
+      <workItem from="1684359949461" duration="1065000" />
+      <workItem from="1684368869687" duration="4711000" />
     </task>
     <task id="LOCAL-00001" summary="Intitial commit of project">
       <created>1399060866944</created>
@@ -498,6 +499,16 @@
     <MESSAGE value="&#10;" />
     <MESSAGE value="make 70 grids&#10;" />
     <option name="LAST_COMMIT_MESSAGE" value="make 70 grids&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">

@@ -40,6 +40,7 @@ public class CrosswordGUI extends JFrame implements ActionListener {
     JComboBox<String> puzzleSelector = new JComboBox<String>(puzzles);
     JButton createBtn = new JButton();
     JButton checkBtn = new JButton();
+    StopWatch stopWatch = new StopWatch();
 
     CrosswordGUI() {
         setBounds(100, 200, 1060, 638);
@@ -53,19 +54,22 @@ public class CrosswordGUI extends JFrame implements ActionListener {
 
     CrosswordGUI(String[][] grid) {
         setEasyGrid(grid);
-        setBounds(100, 200, 1060, 638);
+        setBounds(100, 200, 1100, 850);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
         setLayout(null);
         add(playPanel());
         add(questionPanel());
+        stopWatch.setBounds(0, 0, 1000, 150);
+        add(stopWatch);
+        stopWatch.startWatch();
         setVisible(true);
     }
 
     public JPanel playPanel() {
 
 
-        playPanel.setBounds(0, 0, 600, 600);
+        playPanel.setBounds(0, 150, 600, 600);
         playPanel.setLayout(new GridLayout(GRID_SIZE, GRID_SIZE));
         playPanel.setBackground(Color.darkGray);
         playPanel.setVisible(true);
@@ -97,7 +101,7 @@ public class CrosswordGUI extends JFrame implements ActionListener {
 
     public JPanel questionPanel() {
 
-        questionPanel.setBounds(620, 0, 400, 600);
+        questionPanel.setBounds(620, 150, 400, 600);
         questionPanel.setLayout(null);
         questionPanel.setBackground(Color.darkGray);
 
@@ -133,7 +137,7 @@ public class CrosswordGUI extends JFrame implements ActionListener {
         acrossHints.setText("");
 
         acrossScroll = new JScrollPane(acrossHints);
-        acrossScroll.setBounds(20, 100, 380, 200);
+        acrossScroll.setBounds(20, 250, 380, 200);
         acrossScroll.setLayout(new ScrollPaneLayout());
         acrossScroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         acrossScroll.setForeground(Color.darkGray);
@@ -144,7 +148,7 @@ public class CrosswordGUI extends JFrame implements ActionListener {
         down.setText("Down");
         down.setForeground(Color.white);
         down.setFont(new Font("Arial", Font.BOLD, 18));
-        down.setBounds(20, 320, 400, 34);
+        down.setBounds(20, 470, 400, 34);
         down.setVisible(true);
 
         downHints.setForeground(Color.white);
@@ -154,7 +158,7 @@ public class CrosswordGUI extends JFrame implements ActionListener {
         downHints.setText("");
 
         downScroll = new JScrollPane(downHints);
-        downScroll.setBounds(20, 360, 380, 200);
+        downScroll.setBounds(20, 510, 380, 200);
         downScroll.setLayout(new ScrollPaneLayout());
         downScroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         downScroll.setForeground(Color.darkGray);
@@ -234,19 +238,15 @@ public class CrosswordGUI extends JFrame implements ActionListener {
             System.out.println("You Won");
         }
     }
-    public boolean checkWin(int[] cols,int[] rows){
-        int k = 0;
-        for (int i = 0; i < col; i++) {
-            for (int j = 0; j < row; j++) {
-                try {
-                    if (i == cols[k] && j == rows[k]) {
-                        if(slots[i][j].getForeground()==Color.red){
-                            return false;
-                        }
-                    }
-                } catch (Exception e) {
-
+    public boolean checkWin(int[] cols, int[] rows){
+        for (int k = 0; k < cols.length; k++) {
+            int i = cols[k];
+            int j = rows[k];
+            try {
+                if(slots[i][j].getForeground() == Color.red){
+                    return false;
                 }
+            } catch (Exception e) {
 
             }
         }
