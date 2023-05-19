@@ -42,6 +42,8 @@ public class CrosswordGUI extends JFrame implements ActionListener {
     JButton checkBtn = new JButton();
     StopWatch stopWatch = new StopWatch();
 
+    ScoreTracker scoreTracker = new ScoreTracker();
+
     CrosswordGUI() {
         setBounds(100, 200, 1060, 638);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -60,9 +62,11 @@ public class CrosswordGUI extends JFrame implements ActionListener {
         setLayout(null);
         add(playPanel());
         add(questionPanel());
-        stopWatch.setBounds(0, 0, 1000, 150);
+        stopWatch.setBounds(0, 0, 100, 150);
         add(stopWatch);
         stopWatch.startWatch();
+        scoreTracker.setBounds(200, 0, 200, 150);
+        add(scoreTracker);
         setVisible(true);
     }
 
@@ -215,35 +219,44 @@ public class CrosswordGUI extends JFrame implements ActionListener {
     }
 
     public void checkWords(int[] cols, int[] rows, String[] chars) {
-        int k = 0;
-        for (int i = 0; i < col; i++) {
-            for (int j = 0; j < row; j++) {
-                try {
-                    if (i == cols[k] && j == rows[k]) {
-                        if (slots[i][j].getName().equals(slots[i][j].getText())) {
-                            slots[i][j].setForeground(new Color(0, 134, 30));
-                        } else {
-                            slots[i][j].setForeground(Color.red);
-                        }
-                        k++;
-                    }
-                } catch (Exception e) {
-
-                }
-
-            }
-        }
-        if(checkWin(cols,rows)){
-
-            System.out.println("You Won");
-        }
-    }
-    public boolean checkWin(int[] cols, int[] rows){
+        Color green = new Color(0, 134, 30);
         for (int k = 0; k < cols.length; k++) {
             int i = cols[k];
             int j = rows[k];
             try {
-                if(slots[i][j].getForeground() == Color.red){
+                String text = slots[i][j].getText();
+                if (slots[i][j].getName().equals(text)) {
+                    if (!slots[i][j].getForeground().equals(green)) {
+                        slots[i][j].setForeground(green);
+                        // add points
+                        scoreTracker.setScore(1 + scoreTracker.getScore());
+                    }
+                } else {
+                    if (slots[i][j].getForeground().equals(green)) {
+                        // deduct points
+                        scoreTracker.setScore(scoreTracker.getScore() - 1);
+                    }
+                    if (text != null && !text.equals("")) {
+                        slots[i][j].setForeground(Color.red);
+                    } else {
+                        slots[i][j].setForeground(Color.darkGray);
+                    }
+                }
+            } catch (Exception e) {
+
+            }
+        }
+        if(checkWin(cols,rows)){
+            System.out.println("You Won");
+        }
+    }
+    public boolean checkWin(int[] cols, int[] rows){
+        Color green = new Color(0, 134, 30);
+        for (int k = 0; k < cols.length; k++) {
+            int i = cols[k];
+            int j = rows[k];
+            try {
+                if(slots[i][j].getForeground() != green){
                     return false;
                 }
             } catch (Exception e) {
