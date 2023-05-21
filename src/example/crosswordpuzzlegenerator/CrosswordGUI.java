@@ -4,8 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 public class CrosswordGUI extends JFrame implements ActionListener {
     private final static String EMPTY_CELL = "_ ";
@@ -266,10 +268,27 @@ public class CrosswordGUI extends JFrame implements ActionListener {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         CrosswordPuzzleGenerator generator = new CrosswordPuzzleGenerator();
         new CrosswordGUI(generator.res);
-        //new CrosswordGUI();
+
+        List<String> horizontalWords = WordExtraction.extractWordsHorizontally(generator.res);
+        System.out.println("words of crosswords are " +horizontalWords );
+        HashMap<String,String> mapHorizontal = WordMeaning.extractMeaning(horizontalWords);
+//        System.out.println("hashmap is "+ map);
+        for (Map.Entry<String,String> temp : mapHorizontal.entrySet())
+        {
+            System.out.println("key is " + temp.getKey() + " value is   " + temp.getValue());
+        }
+
+        List<String> verticalWords = WordExtraction.extractWordsVertically(generator.res);
+        System.out.println("words of crosswords are " +verticalWords );
+        HashMap<String,String> mapVertical = WordMeaning.extractMeaning(verticalWords);
+//        System.out.println("hashmap is "+ map);
+        for (Map.Entry<String,String> temp : mapVertical.entrySet())
+        {
+            System.out.println("key is " + temp.getKey() + " value is   " + temp.getValue());
+        }
     }
 
     @Override
