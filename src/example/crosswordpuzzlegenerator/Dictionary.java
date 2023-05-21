@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Dictionary
 {
     private static final int MAX_WORD_LENGTH = CrosswordGrid.GRID_SIZE;
-    private static final int MIN_WORD_LENGTH = 3;
+    public static final int MIN_WORD_LENGTH = 3;
     private Map<String, String> dictionary;
     private List<String> words;
 
