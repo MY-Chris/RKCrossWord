@@ -4,258 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ce85e98-9335-4ea1-b5f4-57c4c752ccd0" name="Default" comment="make 70 grids" />
+    <list default="true" id="59946781-4538-479d-b127-3830c0bb2684" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Commander">
-    <leftPanel />
-    <rightPanel />
-    <splitter proportion="0.5" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordPosition.java" />
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/TestCrosswordPuzzleGenerator.java" />
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/BibleWords.java" />
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java" />
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java" />
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java" />
       </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-2" />
-    <option name="width" value="1938" />
-    <option name="height" value="1051" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectId" id="2POECH5cMtWTFbV0qZ6LzhzTIM6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrosswordPuzzleGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrosswordPuzzleGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrosswordPuzzleGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrosswordPuzzleGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrosswordPuzzleGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crosswordpuzzlegenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="2PNxri7se8VnNxwi2YO7BeIeSMB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/YuanY/css566/CrosswordPuzzleGenerator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/gurki/Desktop/crossword&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;71eb74aec16f233fc0b5e0785e32a39f&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.acm.rossword.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/acm/rossword/service" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/acm/rossword/service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.acm.rossword.entity" />
+      <recent name="com.acm.rossword.repository" />
+      <recent name="com.acm.rossword.service" />
+      <recent name="com.acm.rossword.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrosswordGUI">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.CrosswordApplication">
     <configuration name="CrosswordGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.crosswordpuzzlegenerator.CrosswordGUI" />
-      <module name="CrosswordPuzzleGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.acm.rossword.service.CrosswordGUI" />
+      <module name="crossword" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.crosswordpuzzlegenerator.*" />
+          <option name="PATTERN" value="com.acm.rossword.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,63 +77,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrosswordPuzzleGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.crosswordpuzzlegenerator.CrosswordPuzzleGenerator" />
-      <module name="CrosswordPuzzleGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.crosswordpuzzlegenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" singleton="true">
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+    <configuration name="CrosswordApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="crossword" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.acm.rossword.CrosswordApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,549 +88,58 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CrosswordGUI" />
-        <item itemvalue="Application.CrosswordPuzzleGenerator" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SliceManager">
-    <option name="analysisUIOptions">
-      <AnalysisUIOptions />
-    </option>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ce85e98-9335-4ea1-b5f4-57c4c752ccd0" name="Default" comment="" />
-      <created>1391466421747</created>
+      <changelist id="59946781-4538-479d-b127-3830c0bb2684" name="Changes" comment="" />
+      <created>1683311543482</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1391466421747</updated>
-      <workItem from="1683319605038" duration="3637000" />
-      <workItem from="1683333421937" duration="6944000" />
-      <workItem from="1683487772304" duration="1998000" />
-      <workItem from="1684224219900" duration="16000" />
-      <workItem from="1684281985221" duration="1558000" />
-      <workItem from="1684284081502" duration="63000" />
-      <workItem from="1684293244193" duration="2765000" />
-      <workItem from="1684298420607" duration="1024000" />
-      <workItem from="1684359949461" duration="1065000" />
-      <workItem from="1684368869687" duration="4711000" />
-      <workItem from="1684374277023" duration="1711000" />
-      <workItem from="1684391409489" duration="338000" />
-      <workItem from="1684465466962" duration="1752000" />
+      <updated>1683311543482</updated>
+      <workItem from="1683311545534" duration="315000" />
+      <workItem from="1683311936949" duration="560000" />
+      <workItem from="1683312512613" duration="623000" />
+      <workItem from="1683320301007" duration="8737000" />
+      <workItem from="1683330470142" duration="15804000" />
+      <workItem from="1683403289576" duration="7590000" />
+      <workItem from="1683486929445" duration="6607000" />
+      <workItem from="1684224248469" duration="4000" />
+      <workItem from="1684224288710" duration="1119000" />
+      <workItem from="1684278963142" duration="147000" />
+      <workItem from="1684279489237" duration="2341000" />
+      <workItem from="1684283791021" duration="246000" />
+      <workItem from="1684284192434" duration="1393000" />
+      <workItem from="1684650911307" duration="684000" />
+      <workItem from="1684694708187" duration="8141000" />
+      <workItem from="1684713441510" duration="2000" />
+      <workItem from="1684714136242" duration="1192000" />
+      <workItem from="1684790871597" duration="592000" />
+      <workItem from="1684898867587" duration="4834000" />
+      <workItem from="1684918435110" duration="2851000" />
+      <workItem from="1684921305522" duration="227000" />
+      <workItem from="1684921832109" duration="5583000" />
+      <workItem from="1684961312783" duration="3021000" />
+      <workItem from="1685071085703" duration="6444000" />
+      <workItem from="1685149492673" duration="4662000" />
+      <workItem from="1685154325110" duration="2212000" />
     </task>
-    <task id="LOCAL-00001" summary="Intitial commit of project">
-      <created>1399060866944</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1399060866944</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Intitial commit of project&#10;">
-      <created>1399079552396</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1399079552396</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Removed test output&#10;">
-      <created>1400010814188</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1400010814188</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added test comment&#10;">
-      <created>1400011127172</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1400011127172</updated>
-    </task>
-    <task id="LOCAL-00005" summary="removed test comment&#10;">
-      <created>1400011282118</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1400011282118</updated>
-    </task>
-    <task id="LOCAL-00006" summary="make 70 grids&#10;">
-      <created>1400011398450</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1400011398450</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-2" y="-2" width="1938" height="1051" extended-state="0" />
-    <editor active="false" />
-    <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2107574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4290429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16204691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32343236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32772166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4296963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32845894" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16971983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40832397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
-      <collection />
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Intitial commit of project" />
-    <MESSAGE value="Intitial commit of project&#10;" />
-    <MESSAGE value="Removed test output&#10;" />
-    <MESSAGE value="added test comment&#10;" />
-    <MESSAGE value="removed test comment&#10;" />
-    <MESSAGE value="&#10;" />
-    <MESSAGE value="make 70 grids&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="make 70 grids&#10;" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/acm/rossword/service/CrosswordGUI.java</url>
+          <line>76</line>
           <option name="timeStamp" value="1" />
-        </breakpoint>
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="46" selection-start="12927" selection-end="12927" vertical-scroll-proportion="0.0" vertical-offset="9571" max-vertical-offset="10600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="81" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="3250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="46" selection-start="12927" selection-end="12927" vertical-scroll-proportion="0.0" vertical-offset="9571" max-vertical-offset="10600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="3200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="46" selection-start="12927" selection-end="12927" vertical-scroll-proportion="0.0" vertical-offset="9571" max-vertical-offset="10600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="5" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0" vertical-offset="2000" max-vertical-offset="10050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="2900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="46" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.0" vertical-offset="3675" max-vertical-offset="10150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="2750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="9250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="2975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="9250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="45" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="1850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="4499" selection-end="4499" vertical-scroll-proportion="0.0" vertical-offset="3600" max-vertical-offset="5625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="52" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="2925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="21" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="2900" max-vertical-offset="4000">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="21" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="2900" max-vertical-offset="4000">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="21" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="2900" max-vertical-offset="4000">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="410" max-vertical-offset="1300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="3800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="21" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="2815" max-vertical-offset="4000">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="29" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="9325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/crosswordpuzzlegenerator/CrosswordPuzzleGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="803" selection-end="803" vertical-scroll-proportion="0.39797395" vertical-offset="300" max-vertical-offset="3975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
