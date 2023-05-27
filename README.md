@@ -1,16 +1,24 @@
+**CROSSWORD PUZZLE FOR ROAMING KITTY READERS**
 
-**Ever tired of reading blogs on Roaming Kitty ? We have the Roaming Kitty Crossword !**
+**Entertaining crossword puzzles with user friendly interface** 
 
-**Product Background**
+**Tired of reading blogs on Roaming Kitty ? We have the Roaming Kitty Crossword !**
 
-The crossword puzzle game for Roaming Kitty is a software application designed to entertain and engage users. The game ensures age-appropriate content for young users by excluding inappropriate sections of the website. The crossword GUI is user friendly and identical to pen and paper crosswords. To cater to a wide range of users, the game provides customizable features. The game has a timer feature to ensure the curiosity in the user and motivate him to finish the game in time. The game incorporates a scoring system, where players earn points for correctly guessing characters, and their scores are tracked and displayed. In case the user score is in top 10 scores, then he gets a prompt to enter a username and the leaderboard is updated. 
+The crossword puzzle game for Roaming Kitty is a software application with a user-friendly interface providing an enjoyable and interactive experience to the user. The game ensures age-appropriate content for young users by excluding inappropriate sections of the website. This further aligns with the Roaming Kitty mission of bringing exciting word games to their community. 
 
+**Key Features:** 
 
-Version No: 1.0
+- Fixed timer feature to keep track of the game. 
+- Score feature to keep track of all the correct answers.
+- Leaderboard to keep track of top 10 users of all time .
+- Unique puzzles everytime <sup>1</sup>
 
-**Operating System Supported:** Windows, MacOs
+**Version No:** 1.0
 
-**Software Requirements**: [Java 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html) , [Maven](https://maven.apache.org/download.cgi), [PSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads), IDE : ([Spring Tool Suite](https://spring.io/tools),[Intellij](https://www.jetbrains.com/idea/) )
+**Requirements:**
+
+- **Operating System Supported:** Windows, MacOs
+- **Software**: [Java 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html) , [Maven](https://maven.apache.org/download.cgi), [PSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads), IDE : ([Spring Tool Suite](https://spring.io/tools),[Intellij](https://www.jetbrains.com/idea/) )
 
 **Running the application:** 
 
@@ -24,13 +32,15 @@ iii) Right click on the project(crossword) and then build it.
 
 iv) After building it, again  right click on the project and then run the application. 
 
-v) Then open the web browser and type “localhost:8080/crossword/create” to generate the puzzle and start the game.
+v) Then open the web browser & type “localhost:8080/crossword/create” to generate the puzzle.
 
-vi) An instance of Java Awt will start in your system. 
+vi) An instance of Java Awt will start in your system as shown in figures below.
 
 ![Aspose Words 9997ac70-35d2-47f1-a13d-79e11e9fead6 001](https://github.com/MY-Chris/RKCrossWord/assets/69946546/ad1ba73a-0c5e-41e2-9613-524757c32048)
 ![Aspose Words 9997ac70-35d2-47f1-a13d-79e11e9fead6 002](https://github.com/MY-Chris/RKCrossWord/assets/69946546/2c792e3c-a38f-432b-8be4-2c47e050feaa)
 
 **Fig showing Crossword GUI and leaderboard respectively.**
 
-In case of facing any errors or issues installing, please raise a request on our github page https://github.com/MY-Chris/RKCrossWord
+**In case of facing any errors or issues installing, please raise a request on our github page <https://github.com/MY-Chris/RKCrossWord>**<sup>[^1]</sup>
+
+[^1]: This is in reference to all the 500 times the game was run and tested.
