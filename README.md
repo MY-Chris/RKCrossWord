@@ -33,4 +33,4 @@ vi) An instance of Java Awt will start in your system.
 
 **Fig showing Crossword GUI and leaderboard respectively.**
 
-**Errors/Issues installing? Please raise a request on our github page. <https://github.com/MY-Chris/RKCrossWord>**
+In case of facing any errors or issues installing, please raise a request on our github page https://github.com/MY-Chris/RKCrossWord
